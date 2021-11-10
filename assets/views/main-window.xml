@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox width="100%"
+      height="100%">
+  <import source="component/primary-menubar.xml" />
+  <splitter width="100%"
+        height="100%"
+        direction="horizontal">
+    <import source="component/mod-explorer.xml" />
+    <import source="component/preview-display.xml" />
+    <import source="component/property-grid.xml" />
+  </splitter>
+</vbox>

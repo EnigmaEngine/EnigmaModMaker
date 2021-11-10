@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menubar width="100%">
+  <style>
+	.menu {
+    // The width of the individual menu items
+		width: 120px;
+	}
+	</style>
+  <menu text="File">
+    <menu-item text="New" />
+    <menu-item text="Open..." />
+    <menu-item text="Save" />
+    <menu-item text="Save As..." />
+    <menu-separator />
+    <menu text="Recent">
+      <menu-item text="Dummy Item 1" />
+      <menu-item text="Dummy Item 2" />
+      <menu-item text="Dummy Item 3" />
+    </menu>
+    <menu-separator />
+    <menu-item text="Exit" />
+  </menu>
+  <menu text="Test">
+    <menu text="Checkboxes">
+      <menu-checkbox text="Check 1" />
+      <menu-checkbox text="Check 2"
+                     selected="true" />
+      <menu-checkbox text="Check 3" />
+    </menu>
+    <menu text="Optionboxes">
+      <menu-optionbox text="Option A1" />
+      <menu-optionbox text="Option A2"
+                      selected="true" />
+      <menu-optionbox text="Option A3" />
+      <menu-separator />
+      <menu-optionbox text="Option B1"
+                      group="B" />
+      <menu-optionbox text="Option B2"
+                      group="B" />
+      <menu-optionbox text="Option B3"
+                      group="B"
+                      selected="true" />
+    </menu>
+    <menu text="Sub Menu">
+      <menu text="Sub Menu A">
+        <menu text="Sub Menu A1">
+          <menu-item text="Item A1-1" />
+          <menu-item text="Item A1-2" />
+          <menu-item text="Item A1-3" />
+        </menu>
+        <menu text="Sub Menu A2">
+          <menu-item text="Item A2-1" />
+          <menu-item text="Item A2-2" />
+          <menu-item text="Item A2-3" />
+        </menu>
+        <menu text="Sub Menu A2">
+          <menu-item text="Item A3-1" />
+          <menu-item text="Item A3-2" />
+          <menu-item text="Item A3-3" />
+        </menu>
+      </menu>
+      <menu text="Sub Menu B">
+        <menu text="Sub Menu B1">
+          <menu-item text="Item B1-1" />
+          <menu-item text="Item B1-2" />
+          <menu-item text="Item B1-3" />
+        </menu>
+        <menu text="Sub Menu B2">
+          <menu-item text="Item B2-1" />
+          <menu-item text="Item B2-2" />
+          <menu-item text="Item B2-3" />
+        </menu>
+        <menu text="Sub Menu B2">
+          <menu-item text="Item B3-1" />
+          <menu-item text="Item B3-2" />
+          <menu-item text="Item B3-3" />
+        </menu>
+      </menu>
+      <menu text="Sub Menu C">
+        <menu text="Sub Menu C1">
+          <menu-item text="Item C1-1" />
+          <menu-item text="Item C1-2" />
+          <menu-item text="Item C1-3" />
+        </menu>
+        <menu text="Sub Menu C2">
+          <menu-item text="Item C2-1" />
+          <menu-item text="Item C2-2" />
+          <menu-item text="Item C2-3" />
+        </menu>
+        <menu text="Sub Menu C2">
+          <menu-item text="Item C3-1" />
+          <menu-item text="Item C3-2" />
+          <menu-item text="Item C3-3" />
+        </menu>
+      </menu>
+    </menu>
+    <menu-separator />
+    <menu-item text="Item with a long label that will wrap" />
+  </menu>
+  <menu text="Help">
+    <menu-item text="Help" />
+    <menu-item text="About..." />
+  </menu>
+</menubar>

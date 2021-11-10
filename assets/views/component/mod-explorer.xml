@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox width="300"
+      height="100%">
+  <listview width="100%"
+            height="100%"
+            selectedIndex="1">
+    <item-renderer layoutName="horizontal"
+                   width="100%">
+      <image id="image" />
+      <label width="100%"
+             id="item" />
+    </item-renderer>
+    <data>
+      <item item="Mod: Tricky Mod"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Character: Tricky"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Character: Whitty"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Character: Oswald"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Stage: Nevada"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Stage: Nevada Hellclown"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Song: Improbable Outset"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+      <item item="Song: Madness"
+            image="haxeui-core/styles/default/haxeui_tiny.png" />
+    </data>
+  </listview>
+</vbox>

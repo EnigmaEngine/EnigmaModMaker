@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox width="300" height="100%">
+<property-grid id="pg"
+               width="100%"
+               height="100%"
+               onchange="trace(event.target.id + ' = ' + event.target.value)">
+  <property-group text="Character">
+    <property
+              label="Name"
+              value="Tricky" />
+    <property
+              label="Asset Path"
+              value="characters/tricky" />
+    <property
+              label="Bar Color"
+              value="#308B4E" />
+    <property label="Starting Animation"
+      type="list"
+      value="Idle">
+      <data>
+        <item text="Idle" />
+        <item text="Sing Left" />
+        <item text="Sing Right" />
+        <item text="Sing Up" />
+        <item text="Sing Down" />
+      </data>
+    </property>
+  </property-group>
+  <property-group text="Animation: idle">
+    <property
+              label="Prefix"
+              value="idle" />
+    <property
+              label="Loop"
+              type="boolean"
+              value="true" />
+    <property
+              label="X Offset"
+              type="int"
+              value="-10" />
+    <property
+              label="Y Offset"
+              type="int"
+              value="15" />
+              <hbox width="100%">
+                <label text="Remove Animation" horizontalAlign="left" verticalAlign="center"/>
+                <button text="Remove" horizontalAlign="right" verticalAlign="center"/>
+              </hbox>
+  </property-group>
+  <button text="Add Animation" style="paddingTop:12px;"/>
+</property-grid>
+</vbox>

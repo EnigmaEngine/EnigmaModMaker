@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+  The primary file editor view.
+-->
+<tabview>
+  <box text="Design" icon="haxeui-core/styles/default/haxeui_tiny.png">
+    <button text="Design View Button" />
+  </box>
+  <box text="Preview" icon="haxeui-core/styles/default/haxeui_tiny.png">
+    <button text="Preview View Button" />
+  </box>
+  <box text="Source" icon="haxeui-core/styles/default/haxeui_tiny.png">
+    <button text="Source View Button" />
+  </box>
+</tabview>
