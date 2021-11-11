@@ -1,3 +1,11 @@
+# WARNING!
+```diff
+! This app is nowhere near to being near to being done.
+! Until this tool actually has functionality, we will not provide support for it.
+```
+
+###### says MasterEric, at least
+
 # Enigma Mod Maker for Friday Night Funkin'
 
 ![Preview](docs/preview.png)
